@@ -16,8 +16,10 @@ class PenyakitModel extends Model
         'deskripsi',
     ];
 
-    
     protected $useSoftDeletes = false; 
+
+    // Define relationships
+    protected $with = ['dpPenyebab', 'dpSolusi', 'gejala'];
 
     public function dpPenyebab()
     {

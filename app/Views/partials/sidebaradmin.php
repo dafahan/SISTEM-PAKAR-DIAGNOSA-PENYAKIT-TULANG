@@ -207,12 +207,12 @@
 						<li class="nav-item {{ $title === "Detail Penyakit" ? 'active' : '' }}">
 							<a href="/admin/detailpenyakit">
 								<i class="fas fa-table"></i>
-								<p>Data Detail Penyakit</p>
+								<p>Manage Article</p>
 							</a>
 						</li>
 						<li class="nav-section" style="border-top: 1px solid rgba(241, 241, 241, 0.1); margin:10px 10px;">
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<div>
 							<a data-toggle="collapse" href="#sidebarLayouts">
 								<i class="fa fa-ellipsis-h"></i>
@@ -239,7 +239,7 @@
 								</ul>
 							</div>
 						</div>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>

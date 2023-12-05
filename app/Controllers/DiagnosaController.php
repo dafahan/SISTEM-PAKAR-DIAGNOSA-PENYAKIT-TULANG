@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use TCPDF\TCPDF;
 use Ramsey\Uuid\Uuid;
 use App\Models\GejalaModel;
 use App\Models\PasienModel;
@@ -17,6 +18,8 @@ use CodeIgniter\Controller;
 
 class DiagnosaController extends BaseController
 {
+    
+
     public function index()
     {
         $title = "Diagnosa";
@@ -97,6 +100,7 @@ class DiagnosaController extends BaseController
              'penyebab'=>iy($penyebab), 
              'solusi'=>iy($solusi),
         ];
+        $data['data']=$data;
        
         return view('diagnosa/hasildiagnosa', $data);
     }
@@ -309,18 +313,36 @@ class DiagnosaController extends BaseController
         return $hasil;
     }
 
-    public function export($pasien, $penyakit)
+    public function export()
     {
-        $data['penyakit'] = (new PenyakitModel())->where('id', $penyakit)->first();
-        $data['gejala'] = (new DPGejalaModel())->with('gejala')->where('kd_penyakit', $data['penyakit']->kd_penyakit)->findAll();
-        $data['pasien'] = (new PasienModel())->where('id', $pasien)->first();
-
-        $pdf = new \TCPDF();
-        $pdf->loadView('konsultasi/export', $data);
-        $pdf->setPaper('a4', 'portrait');
-        $pdf->setPrintHeader(false);
-        $pdf->setPrintFooter(false);
-
+        $postData = $this->request->getPost('data');
+        $data = json_decode($postData, true);
+        
+        // Create a new instance of TCPDF with paper size and orientation
+        $pdf = new \TCPDF('P', 'mm', 'A4', true, 'UTF-8', false);
+    
+        // Set margins
+        $pdf->SetMargins(10, 10, 10);
+    
+        // Remove auto page breaks
+        $pdf->SetAutoPageBreak(false, 10);
+    
+        // Add a page to the PDF
+        $pdf->AddPage();
+    
+        // Set headers
+      
+       
+        $pdf->Cell(0, 10, 'ID : ' . $data['pasien']['id'], 0, 1, 'L');
+        $pdf->Cell(0, 10, ' ' . $data['penyakit']['kode_penyakit'], 0, 1, 'L');
+        // Generate HTML from the view
+        $html = view('diagnosa/export', $data);
+    
+        // Write the HTML content to the PDF
+        $pdf->writeHTML($html, true, false, true, false, '');
+    
+        // Output the PDF as a download
         $pdf->Output('hasil-diagnosa.pdf', 'D');
+        return view('diagnosa/export', $data);
     }
-}
+}    

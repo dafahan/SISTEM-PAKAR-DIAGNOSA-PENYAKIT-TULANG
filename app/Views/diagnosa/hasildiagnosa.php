@@ -149,7 +149,7 @@
                                 <td width="30px">:</td>
                                 <td>
                                 <?php if(!empty($penyebab)){ foreach ($penyebab as $i):?>
-                                        <li><?=  $i->nama_penyebab;?></li>
+                                        <li><?=  $i['nama_penyebab'];?></li>
                                     <?php endforeach;}?>
                                 </td>
                             </tr>
@@ -167,8 +167,20 @@
                     </div><br>
                     <div class="opsi">
                         <a href="/konsultasi" class="btn btn-primary">Diagnosa lagi</a>
-                        <a href="/" class="btn btn-info">Selesai</a>
-                        <a href="" class="btn btn-warning">Cetak Hasil</a>
+                        <a href="<?= base_url()?>" class="btn btn-info">Selesai</a>
+                        <a href="#" class="btn btn-warning" onclick="submitForm()">Cetak Hasil</a>
+                        <form id="cetakForm" action="<?= base_url('diagnosa/print') ?>" method="post">
+                            <input type="hidden" name="data" value="<?= htmlspecialchars(json_encode($data)) ?>" />
+                            
+                        </form>
+
+                        <script>
+                            function submitForm() {
+                                document.getElementById('cetakForm').submit();
+                            }
+                        </script>
+
+                        
                     </div>
 
                 </div>

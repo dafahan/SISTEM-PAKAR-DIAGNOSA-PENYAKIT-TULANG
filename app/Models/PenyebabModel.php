@@ -14,7 +14,7 @@ class PenyebabModel extends Model
         'nama_penyebab',
     ];
 
-    protected $returnType = 'object'; // You can change it to 'array' if you prefer arrays
+     
 
     protected $useTimestamps = false; // Set it to true if your table has 'created_at' and 'updated_at' columns
     protected $useSoftDeletes = false; // Set it to true if you want to use soft deletes

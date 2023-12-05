@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class GejalaModel extends Model
 {
     protected $table = "t_gejala";
-    protected $primaryKey = 'kode_gejala';
+    protected $primaryKey = 'id';
     protected $allowedFields = ['kode_gejala', 'nama_gejala'];
 
     public function penyakit()
