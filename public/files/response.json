@@ -1,0 +1,671 @@
+{
+    "@context": "http:\/\/schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Mental health",
+    "copyrightHolder": {
+        "name": "Crown Copyright",
+        "@type": "Organization"
+    },
+    "license": "https:\/\/developer.api.nhs.uk\/terms",
+    "author": {
+        "url": "https:\/\/www.nhs.uk",
+        "logo": "https:\/\/www.nhs.uk\/nhscwebservices\/documents\/logo1.jpg",
+        "email": "nhswebsite.servicedesk@nhs.net",
+        "@type": "Organization",
+        "name": "NHS website"
+    },
+    "about": {
+        "@type": "WebPage",
+        "name": "Mental health",
+        "alternateName": ""
+    },
+    "description": "Find information and support for your mental health.",
+    "url": "https:\/\/www.nhs.uk\/mental-health\/",
+    "genre": [],
+    "keywords": "",
+    "dateModified": "2023-08-22T13:42:00+00:00",
+    "hasPart": [
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/psychosis\/overview\/#symptoms",
+            "description": "The main symptoms of psychosis are hallucinations, delusions and confused thinking and speaking.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>The 3 main symptoms of psychosis are:<\/p><ul><li><a href=\"\/mental-health\/feelings-symptoms-behaviours\/feelings-and-symptoms\/hallucinations-hearing-voices\/\">hallucinations<\/a>\u00a0\u2013\u00a0where a person hears, sees and, in some cases, feels, smells or tastes things that do not exist outside their mind but can feel very real to the person affected by them; a common hallucination is hearing voices<\/li><li>delusions\u00a0\u2013\u00a0where a person has strong beliefs that are not shared by others; a common delusion is\u00a0someone believing\u00a0there's a conspiracy to harm them<\/li><li>disordered thinking and speaking - a person's thoughts and ideas come very quickly, which can make their speech fast and confusing<\/li><\/ul><p>The combination of hallucinations and delusional thinking can cause severe distress and a change in behaviour.<\/p><p>Experiencing the symptoms of psychosis is often referred to as having a psychotic episode.<\/p>"
+                }
+            ],
+            "headline": "Symptoms of psychosis"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/CausesHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/psychosis\/overview\/#causes",
+            "description": "Common causes of psychosis include mental health conditions like schizophrenia and bipolar disorder.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>It's\u00a0sometimes possible to identify the cause of psychosis as a specific mental health condition, such as:<\/p><ul><li><a href=\"\/mental-health\/conditions\/schizophrenia\/overview\/\">schizophrenia<\/a>\u00a0\u2013\u00a0a condition that causes a range of psychological symptoms, including hallucinations and delusions<\/li><li><a href=\"\/mental-health\/conditions\/bipolar-disorder\/overview\/\">bipolar disorder<\/a>\u00a0\u2013\u00a0a mental health condition that affects mood; a person with bipolar disorder can have episodes of\u00a0low mood <a href=\"\/mental-health\/conditions\/depression-in-adults\/overview\/\">(depression)<\/a> and highs or elated mood (mania)<\/li><li>severe depression\u00a0\u2013\u00a0some people with depression also have symptoms of psychosis when they're very depressed<\/li><\/ul><p>Psychosis can also be triggered by:<\/p><ul><li>a traumatic experience<\/li><li>stress<\/li><li><a href=\"\/live-well\/addiction-support\/drug-addiction-getting-help\/\">drug\u00a0misuse<\/a><\/li><li><a href=\"\/live-well\/alcohol-advice\/\">alcohol misuse<\/a><\/li><li>side effects of prescribed medicine<\/li><li>a\u00a0physical condition, such as\u00a0a <a href=\"\/conditions\/malignant-brain-tumour\/\">brain tumour<\/a> or dementia<\/li><li>head injury<\/li><li>childbirth<\/li><\/ul><p>How often a psychotic episode occurs and how long it lasts can depend on the underlying cause.<\/p>"
+                }
+            ],
+            "headline": "Causes of psychosis"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/psychosis\/overview\/#medical-treatments",
+            "description": "Common treatments for psychosis include antipsychotic medicines, talking therapies and social support.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Treatment for psychosis can depend on the cause, but usually involves a combination of<\/p><ul><li>antipsychotic medicine\u00a0\u2013\u00a0which can help relieve the symptoms of psychosis<\/li><li>talking therapies\u00a0\u2013\u00a0the 1-to-1 talking therapy\u00a0<a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy (CBT)<\/a> and family interventions (a form of therapy that may involve partners, family members and close friends) can be helpful<\/li><li>social support\u00a0\u2013\u00a0support with social needs, such as education, employment or accommodation<\/li><\/ul><p>Some people are recommended to take antipsychotics on a long-term basis (and possibly for the rest of their lives). Other people may be able to gradually reduce their dosage and then stop taking them altogether if there is a marked improvement in symptoms.<\/p><p>Do not stop suddenly taking any prescribed medicines as this could trigger a relapse of your symptoms.<\/p><p>If a person's psychotic episodes are severe, they may need to be admitted to a psychiatric hospital for treatment.<\/p>"
+                }
+            ],
+            "headline": "Treating psychosis"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/anorexia\/overview\/#symptoms",
+            "description": "Symptoms of anorexia include believing you're fat when you're a healthy weight or underweight, eating very little or missing meals.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Signs and symptoms of anorexia include:<\/p><ul><li>if you're under 18, your weight and height being lower than expected for your age<\/li><li>if you're an adult, having an unusually low <a href=\"\/live-well\/healthy-weight\/bmi-calculator\/\">body mass index (BMI)<\/a><\/li><li>missing meals, eating very little or avoiding eating any foods you see as fattening<\/li><li>believing you're fat when you're a healthy weight or underweight<\/li><li>taking medicine to reduce your hunger (appetite suppressants)<\/li><li>your periods stopping (in women who have not reached menopause) or not starting (in younger women and girls)<\/li><li>physical problems, such as feeling <a href=\"\/conditions\/dizziness\/\">lightheaded or dizzy<\/a>, <a href=\"\/conditions\/hair-loss\/\">hair loss<\/a> or dry skin<\/li><\/ul><p>Some people with anorexia may also make themselves sick, do an extreme amount of exercise, or use <a href=\"\/conditions\/laxatives\/\">medicine to help them poo (laxatives)<\/a> or to make them pee (diuretics) to try to stop themselves gaining weight from any food they do eat.<\/p>"
+                }
+            ],
+            "headline": "Signs and symptoms of anorexia"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/anorexia\/overview\/#medical-treatments",
+            "description": "Anorexia is usually treated with talking therapies, such as cognitive behavioural therapy (CBT).",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>You can recover from anorexia, but it may take time and recovery will be different for everyone.<\/p><p>Your treatment plan will be tailored to you and should consider any other support you might need, such as for depression or anxiety.<\/p><p>If you're over 18, you should be offered a type of talking therapy to help you manage your feelings about food and eating so that you are able to eat enough to be healthy. Talking therapies that are commonly used to treat anorexia in adults include:<\/p><ul><li><a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy (CBT)<\/a><\/li><li>Maudsley Anorexia Nervosa Treatment for Adults (MANTRA)<\/li><li>specialist supportive clinical management (SSCM)<\/li><\/ul><p>If you're under 18, you should be offered family therapy. You may also be offered another type of talking therapy, such as CBT or adolescent-focused psychotherapy.<\/p><p>Find out how to get <a href=\"\/mental-health\/children-and-young-adults\/mental-health-support\/\">mental health support for children and young people.<\/a><\/p>"
+                }
+            ],
+            "headline": "Treatment for anorexia"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/generalised-anxiety-disorder\/overview\/#symptoms",
+            "description": "Symptoms of generalised anxiety disorder vary from person to person, but include constant worrying, a sense of fear and difficulty concentrating.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>GAD can cause both psychological (mental) and physical symptoms.<\/p><p>These vary from person to person, but can include:<\/p><ul><li>feeling restless or worried<\/li><li>having trouble concentrating or sleeping<\/li><li><a href=\"\/conditions\/dizziness\/\">dizziness<\/a>\u00a0or <a href=\"\/conditions\/heart-palpitations\/\">heart palpitations<\/a><\/li><\/ul>"
+                }
+            ],
+            "headline": "Symptoms of generalised anxiety disorder (GAD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/generalised-anxiety-disorder\/overview\/#medical-treatments",
+            "description": "Exercising more and talking to someone you trust can help with generalised anxiety disorder. Treatments include talking therapies and medicines.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>GAD can have a significant effect on your daily life, but several different treatments are available that can ease your symptoms.<\/p><p>These include:<\/p><ul><li>talking therapies\u00a0\u2013 you can get talking therapies like <a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy (CBT)<\/a> on the NHS; you do not need a referral from a GP and you can refer yourself for talking therapies service in your area \u2013 <a href=\"https:\/\/www.nhs.uk\/service-search\/mental-health\/find-a-psychological-therapies-service\/\">read more about how to find an NHS talking therapies service<\/a><\/li><li>medication \u2013 such as a type of antidepressant called\u00a0<a href=\"\/mental-health\/talking-therapies-medicine-treatments\/medicines-and-psychiatry\/ssri-antidepressants\/overview\/\">selective serotonin reuptake inhibitors (SSRIs)<\/a><\/li><\/ul><p>With treatment, many people are able to control their anxiety levels. But some treatments may need to be continued for a long time and there may be periods when your symptoms worsen.<\/p>"
+                }
+            ],
+            "headline": "How generalised anxiety disorder (GAD) is treated"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SelfCareHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/generalised-anxiety-disorder\/overview\/#self-care",
+            "description": "Things like exercising more and talking to someone you trust can help with GAD. Treatments include talking therapies and medicines.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>There are also many things you can do yourself to help reduce\u00a0your anxiety, such as:\u00a0<\/p><ul><li>going on\u00a0a self-help course<\/li><li>exercising regularly<\/li><li>stopping smoking<\/li><li>looking after your physical health<\/li><\/ul>"
+                }
+            ],
+            "headline": "Self-help for generalised anxiety disorder (GAD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/bipolar-disorder\/overview\/#symptoms",
+            "description": "The main symptoms of bipolar disorder are episodes of extreme highs and lows, which can last for several weeks.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>People with\u00a0bipolar disorder have episodes of:<\/p><ul><li>depression\u00a0\u2013\u00a0feeling very low and lethargic<\/li><li>mania\u00a0\u2013\u00a0feeling very high and overactive<\/li><\/ul><p><a href=\"\/mental-health\/conditions\/bipolar-disorder\/symptoms\/\">Symptoms of bipolar disorder<\/a> depend on which mood you're experiencing.<\/p><p>Unlike simple mood swings, each extreme episode of bipolar disorder can last for several weeks (or even longer).<\/p>"
+                }
+            ],
+            "headline": "Symptoms of bipolar disorder"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/bipolar-disorder\/overview\/#medical-treatments",
+            "description": "Treatments for bipolar disorder include medicines and talking therapies.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>The high and low phases of bipolar disorder are often so extreme that they interfere with everyday life.<\/p><p>But there are several options for\u00a0<a href=\"\/mental-health\/conditions\/bipolar-disorder\/treatment\/\">treating bipolar disorder<\/a> that can make a difference.<\/p><p>They aim to control the effects of an episode and help someone with bipolar disorder live life as normally as possible.<\/p><p>The following treatment options are available:<\/p><ul><li>medicine to prevent episodes of mania and depression\u00a0\u2013\u00a0these are known as mood stabilisers, and you take them every day on a long-term basis<\/li><li>medicine to treat the main symptoms of depression and mania when they happen<\/li><li>learning to recognise the triggers and signs of an episode of depression or mania<\/li><li>psychological treatment\u00a0\u2013\u00a0such as talking therapy, which can help you deal with depression, and provides advice about how to improve your relationships<\/li><li>lifestyle advice\u00a0\u2013\u00a0such as doing regular exercise, planning activities you enjoy that give you a sense of achievement, as well as advice on\u00a0improving your diet and getting more sleep<\/li><\/ul><p>It's thought using a combination of different treatment methods is the best way to control bipolar disorder.<\/p><p>Help and advice for people with a long-term condition or their carers\u00a0is also available\u00a0from charities, support groups and associations.<\/p><p>This includes self-help and learning to\u00a0deal with the practical aspects of a long-term condition.<\/p>"
+                }
+            ],
+            "headline": "Treatments for bipolar disorder"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/schizophrenia\/overview\/#symptoms",
+            "description": "Symptoms of schizophrenia can include hearing voices or seeing things that are not real, unusual beliefs and confused thinking.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Symptoms of schizophrenia can include:<\/p><ul><li><a href=\"\/mental-health\/feelings-symptoms-behaviours\/feelings-and-symptoms\/hallucinations-hearing-voices\/\">hallucinations<\/a> \u2013 hearing or seeing things that do not exist outside of the mind<\/li><li>delusions \u2013 unusual beliefs not based on reality<\/li><li>muddled thoughts and speech based on hallucinations or delusions<\/li><li>losing interest in everyday activities<\/li><li>not wanting to look after yourself and your needs, such as not caring about your personal hygiene<\/li><li>wanting to avoid people, including friends<\/li><li>feeling disconnected from your feelings or emotions<\/li><\/ul><p>People with schizophrenia do not have a split personality. Schizophrenia does not usually cause someone to be violent.<\/p>"
+                }
+            ],
+            "headline": "Symptoms of schizophrenia"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/schizophrenia\/overview\/#medical-treatments",
+            "description": "Schizophrenia is usually treated with a combination of talking therapies and medicine.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Schizophrenia is usually treated with a combination of medicine and therapy\u00a0tailored to each individual.<\/p><p>In most cases, this will be antipsychotic\u00a0medicines and\u00a0<a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/\">cognitive behavioural therapy (CBT)<\/a>.<\/p><p>People with schizophrenia usually receive help from a community mental health team, which can offer day-to-day support and treatment, depending on the needs of each individual.<\/p><p>Many people recover from schizophrenia, although they may have periods when symptoms return (relapses).<\/p><p>Support and treatment can help\u00a0reduce the impact\u00a0the condition has\u00a0on daily life.<\/p>"
+                }
+            ],
+            "headline": "Treating schizophrenia"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/borderline-personality-disorder\/overview\/#symptoms",
+            "description": "Symptoms of borderline personality include being emotionally unstable, having upsetting thoughts and acting without thinking.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>The symptoms of BPD can be grouped into 4 main areas:<\/p><ul><li>emotional instability \u2013\u00a0the psychological term for this is affective dysregulation<\/li><li>disturbed patterns of thinking or perception \u2013 cognitive distortions or perceptual distortions<\/li><li>impulsive behaviour<\/li><li>intense but unstable relationships with others<\/li><\/ul><p>The symptoms\u00a0of a personality disorder may range from mild to severe and usually emerge in adolescence, persisting into adulthood.<\/p>"
+                }
+            ],
+            "headline": "Symptoms of borderline personality disorder (BPD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/CausesHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/borderline-personality-disorder\/overview\/#causes",
+            "description": "The cause of borderline personality disorder is unclear. It's been linked to traumatic events during childhood, such as neglect or abuse.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>The causes of BPD are unclear. BPD appears to result from a combination of genetic and environmental factors.<\/p><p>People with BPD come from many different backgrounds, but most will have experienced some kind of trauma or neglect as children.<\/p>"
+                }
+            ],
+            "headline": "Causes of borderline personality disorder (BPD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/borderline-personality-disorder\/overview\/#medical-treatments",
+            "description": "The main treatment for borderline personality disorder is a type of talking therapy called psychotherapy.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Many people with BPD can benefit from psychological or medical treatment.<\/p><p>Treatment may involve a range of individual and group psychological therapies <a href=\"\/conditions\/psychotherapy\/\">(psychotherapy)<\/a> carried out by trained professionals working with a community mental health team (CMHT).<\/p><p>Effective treatment may last more than a year.<\/p><p>Over time, many people with BPD\u00a0overcome their symptoms and recover. Additional treatment is recommended for people whose symptoms return.<\/p>"
+                }
+            ],
+            "headline": "Treating borderline personality disorder (BPD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/depression-in-adults\/overview\/#symptoms",
+            "description": "Symptoms of depression include feeling unhappy or hopeless, low self-esteem and finding no pleasure in things you usually enjoy.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Depression affects people in different\u00a0ways and can cause a wide variety\u00a0of symptoms.<\/p><p>They range from lasting feelings of unhappiness and hopelessness, to losing interest in the things you used to enjoy and feeling very tearful. Many people with depression\u00a0also have <a href=\"\/mental-health\/conditions\/generalised-anxiety-disorder\/symptoms\/\">symptoms of anxiety<\/a>.<\/p><p>There\u00a0can be\u00a0physical symptoms too, such as\u00a0feeling constantly tired, sleeping badly,\u00a0having\u00a0no\u00a0appetite\u00a0or sex drive, and various\u00a0aches and pains.<\/p><p>The\u00a0<a href=\"\/mental-health\/conditions\/depression-in-adults\/symptoms\/\">symptoms of depression<\/a> range from mild to severe. At its mildest, you may simply feel persistently low in spirit, while severe\u00a0depression can make you feel suicidal, that life is no longer worth living.<\/p><p>Most people experience feelings of <a href=\"\/mental-health\/feelings-symptoms-behaviours\/feelings-and-symptoms\/\">stress, anxiety or low mood<\/a>\u00a0during difficult times. A low mood\u00a0may improve after a short period of time, rather than being a sign of depression.<\/p>"
+                }
+            ],
+            "headline": "How to tell if you have\u00a0depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/CausesHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/depression-in-adults\/overview\/#causes",
+            "description": "Many things can cause depression such as stressful events, personality, family history and giving birth.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Sometimes there's a trigger for depression. Life-changing events, such as bereavement, losing your job or giving birth, can bring it on.<\/p><p>People with a family history of depression are more likely to experience\u00a0it themselves. But you can also become\u00a0depressed for no obvious reason.<\/p>"
+                }
+            ],
+            "headline": "What causes depression?"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/depression-in-adults\/overview\/#medical-treatments",
+            "description": "Treatment for depression usually involves a combination of lifestyle changes, talking therapies and medicines.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Treatment for depression can involve a combination of\u00a0lifestyle changes,\u00a0talking therapies and medicine. Your recommended treatment will be based on how severe your depression is.<\/p><p>If you have mild depression, your doctor may suggest waiting to see whether it improves on its own, while monitoring your progress. This is known as \"watchful waiting\". They may also suggest\u00a0lifestyle measures such as\u00a0<a href=\"\/mental-health\/self-help\/guides-tools-and-activities\/exercise-for-depression\/\">exercise<\/a> and guided self-help.<\/p><p>Talking therapies, such as <a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy (CBT)<\/a>, may also be used for mild depression.<\/p><p>For moderate to severe depression, a combination of talking therapy and <a href=\"\/mental-health\/talking-therapies-medicine-treatments\/medicines-and-psychiatry\/antidepressants\/overview\/\">antidepressants<\/a> is often recommended. If you have severe depression, you may be referred to a specialist mental health team for intensive specialist talking treatments and prescribed medicine.<\/p>"
+                }
+            ],
+            "headline": "Treating depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SelfCareHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/depression-in-adults\/overview\/#self-care",
+            "description": "There are things you can do to help with depression, such as exercise, cutting down on alcohol, reading a self-help book or joining a support group.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Many people with\u00a0depression benefit\u00a0by making lifestyle\u00a0changes, such as\u00a0getting more <a href=\"\/live-well\/exercise\/\">exercise<\/a>, <a href=\"\/live-well\/alcohol-advice\/tips-on-cutting-down-alcohol\/\">cutting down on\u00a0alcohol<\/a>,\u00a0<a href=\"\/live-well\/quit-smoking\/\">giving up smoking<\/a>\u00a0and <a href=\"\/live-well\/eat-well\/\">eating healthily<\/a>.<\/p><p>Reading a self-help book or joining a support group are also worthwhile. They can help you gain a better understanding about\u00a0what causes you to feel depressed. Sharing your experiences with others in a similar situation\u00a0can also be very supportive.<\/p>"
+                }
+            ],
+            "headline": "Living with depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/phobias\/overview\/#symptoms",
+            "description": "Common symptoms of a phobia are anxiety and panic when you come into contact with the cause of your phobia.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>A phobia is a type of <a href=\"\/mental-health\/conditions\/generalised-anxiety-disorder\/overview\/\">anxiety disorder<\/a>. You may not experience any symptoms until you come into contact with the source\u00a0of your phobia.<\/p><p>But in some cases, even thinking about the source of a phobia\u00a0can make a person feel anxious or panicky.\u00a0This is known as anticipatory anxiety.<\/p><p>Symptoms may include:<\/p><ul><li>unsteadiness, dizziness and lightheadedness<\/li><li>nausea<\/li><li>sweating<\/li><li>increased heart rate or <a href=\"\/conditions\/heart-palpitations\/\">palpitations<\/a><\/li><li>shortness of breath<\/li><li>trembling or shaking<\/li><li>an upset stomach<\/li><\/ul><p>If you do not come into contact with the source of your phobia very often, it may not affect your everyday life.<\/p><p>But if you have a complex phobia, such as <a href=\"\/mental-health\/conditions\/agoraphobia\/overview\/\">agoraphobia<\/a>, leading a normal life may be very difficult.<\/p>"
+                }
+            ],
+            "headline": "Phobia symptoms"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/phobias\/overview\/#medical-treatments",
+            "description": "Treatments for phobias include talking therapies, such as cognitive behavioural therapy, and sometimes medicines.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Most phobias can be treated successfully.<\/p><p>Simple phobias can be treated through gradual exposure to the object, animal, place or situation that causes fear and anxiety. This is known as desensitisation or self-exposure therapy.<\/p><p>You could try these methods with the help of a professional or as part of a\u00a0<a href=\"\/mental-health\/conditions\/phobias\/self-help\/\">self-help programme<\/a>.<\/p><p>Treating complex phobias often takes longer and involves talking therapies, such as:<\/p><ul><li><a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/counselling\/\">counselling<\/a><\/li><li><a href=\"\/conditions\/psychotherapy\/\">psychotherapy<\/a><\/li><li><a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy<\/a><\/li><\/ul><p>Medication may be prescribed to help with anxiety caused by certain phobias.<\/p><p>Medicines that may be\u00a0used include:<\/p><ul><li><a href=\"\/mental-health\/talking-therapies-medicine-treatments\/medicines-and-psychiatry\/antidepressants\/overview\/\">antidepressants<\/a><\/li><li>tranquillisers<\/li><li><a href=\"\/conditions\/beta-blockers\/\">beta blockers<\/a><\/li><\/ul>"
+                }
+            ],
+            "headline": "Treating phobias"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-natal-depression\/overview\/#symptoms",
+            "description": "Symptoms of postnatal depression include constant sadness, lack of energy and finding it difficult to look after yourself and your baby.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Many women feel a bit down, tearful or anxious in the first week after giving birth.<\/p><p>This is often called the \"<a href=\"\/conditions\/baby\/support-and-services\/feeling-depressed-after-childbirth\/\">baby blues<\/a>\" and is so common that it's considered normal.<\/p><p>The \"baby blues\" do not last for more than 2 weeks after giving birth.<\/p><p>If your symptoms last longer or start later, you could have postnatal depression.<\/p><p>Postnatal depression can start any time in the first year after giving birth.<\/p><p>Signs that you or someone you know might be depressed include:<\/p><ul><li>a persistent feeling of sadness and low mood<\/li><li>lack of enjoyment and loss of interest in the wider world<\/li><li>lack of energy and feeling tired all the time<\/li><li>trouble sleeping at night and feeling sleepy during the day<\/li><li>finding it difficult to look after yourself and your baby<\/li><li>withdrawing from contact with other people<\/li><li>problems concentrating and making decisions<\/li><li>frightening thoughts \u2013 for example, about hurting your baby<\/li><\/ul><p>Many women do not realise they have postnatal depression because it can develop gradually.<\/p>"
+                }
+            ],
+            "headline": "Symptoms of postnatal depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-natal-depression\/overview\/#medical-treatments",
+            "description": "Talking to friends and family and taking time to relax may help with postnatal depression. Some people need talking therapy or medicines.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Postnatal depression can be lonely, distressing and frightening, but support and effective treatments are available.<\/p><p>These include:<\/p><ul><li>self-help \u2013 things you can try yourself include talking to your family and friends about your feelings and what they can do to help, making time for yourself to do things you enjoy, resting whenever you get the chance, getting as much sleep as you can at night, <a href=\"\/live-well\/exercise\/\">exercising regularly<\/a>, and eating a <a href=\"https:\/\/www.nhs.uk\/live-well\/eat-well\/\">healthy diet<\/a><\/li><li>talking therapy \u2013 a GP may be able to recommend a self-help course or may refer you for a course of therapy, such as <a href=\"https:\/\/www.nhs.uk\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy (CBT)<\/a><\/li><li><a href=\"https:\/\/www.nhs.uk\/mental-health\/talking-therapies-medicine-treatments\/medicines-and-psychiatry\/antidepressants\/overview\/\">antidepressants<\/a> \u2013 these may be recommended if your depression is more severe or other treatments have not helped; your doctor can prescribe a medicine that's safe to take while breastfeeding<\/li><\/ul>"
+                }
+            ],
+            "headline": "Treatments for postnatal depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/CausesHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-natal-depression\/overview\/#causes",
+            "description": "There are a number of things that can lead to postnatal depression including having mental health problems, such as depression, earlier in life.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>The cause of postnatal depression is not completely clear.<\/p><p>There are a number of things that may make you more likely to have postnatal depression. These include:<\/p><ul><li>a history of mental health problems, particularly depression, earlier in life<\/li><li>a history of mental health problems during pregnancy<\/li><li>having no close family or friends to support you<\/li><li>a difficult relationship with your partner<\/li><li>recent stressful life events, such as a bereavement<\/li><li>physical or psychological trauma, such as domestic violence<\/li><\/ul><p>Even if you do not have any of these, having a baby is a life-changing event that can sometimes trigger depression.<\/p><p>It often takes time to adapt to becoming a new parent. Looking after a baby can be stressful and exhausting.<\/p>"
+                }
+            ],
+            "headline": "Causes of postnatal depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/PreventionHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-natal-depression\/overview\/#prevention",
+            "description": "Maintaining a healthy lifestyle and having someone you can talk to and turn to for support can help you keep well during pregnancy.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>There are things you can do during pregnancy to help you keep well, such as maintaining a healthy lifestyle and having someone you can talk to and turn to for support.<\/p><p>Going to antenatal classes and making friends with other pregnant women or new parents can also be helpful.<\/p><p>If you are pregnant or thinking about getting pregnant, talk to a GP or your mental health team if:<\/p><ul><li>you have a history of depression or mental health problems<\/li><li>someone in your family has had mental health problems after childbirth (for example, your mother or sister)<\/li><\/ul><p>This is so they can offer you appropriate treatment.<\/p><p>You can also talk to a midwife, who can support you or refer you to specialist mental health services if needed. If you have had a mental health problem while pregnant, your doctor should arrange for you to be seen regularly in the first few weeks after birth.<\/p><p>The mental health team, maternity team and GP will work closely with you during your pregnancy and after you have given birth.<\/p>"
+                }
+            ],
+            "headline": "Preventing postnatal depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SelfCareHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-natal-depression\/treatment\/#self-care",
+            "description": "Things you can do, such as resting and relaxing whenever you can, may help with postnatal depression. Some people need talking therapy or medicines.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Looking after a baby can be stressful and challenging for anyone, and it can be even tougher if you're dealing with postnatal depression as well.<\/p><p>There are a number of things you can try yourself to improve your symptoms and help you cope.<\/p><p>These include:<\/p><ul><li>talking to your partner, friends and family \u2013 try to help them understand how you're feeling and what they can do to support you<\/li><li>not trying to be a \"supermum\" \u2013 accept help from others when it's offered and ask your loved ones if they can help look after the baby and do tasks such as housework, cooking and shopping<\/li><li>making time for yourself \u2013 try to do activities that you find relaxing and enjoyable, such as going for a walk, listening to music, reading a book or having a warm bath<\/li><li>resting when you can \u2013 although it can be difficult when you're looking after a baby, try to sleep whenever you get the chance, follow <a href=\"\/conditions\/insomnia\/\">good sleeping habits<\/a> and ask your partner to help with the night-time work<\/li><li><a href=\"\/live-well\/exercise\/\">exercising regularly to boost your mood<\/a><\/li><li>eating regular, <a href=\"https:\/\/www.nhs.uk\/live-well\/eat-well\/\">healthy meals<\/a> and not going for long periods without eating<\/li><li>not drinking <a href=\"https:\/\/www.nhs.uk\/live-well\/alcohol-support\/\">alcohol<\/a> or taking drugs, as this can make you feel worse<\/li><\/ul><p>Ask your health visitor about support services in your area. They may be able to put you in touch with a social worker, counsellor or local support group.<\/p><p>It can be reassuring to meet other women who are going through something similar.<\/p>"
+                }
+            ],
+            "headline": "Self-help for postnatal depression"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/obsessive-compulsive-disorder-ocd\/overview\/#symptoms",
+            "description": "The main symptoms of obsessive compulsive disorder are unpleasant thoughts and repetitive behaviours that you cannot control.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>If you have OCD, you'll usually experience frequent obsessive thoughts and compulsive behaviours.<\/p><ul><li>An obsession is an unwanted and unpleasant thought, image or urge that repeatedly enters your mind, causing feelings of anxiety, disgust or unease.<\/li><li>A compulsion is a repetitive behaviour or mental act that\u00a0you feel you need to do to temporarily relieve the unpleasant feelings brought on by the obsessive thought.<\/li><\/ul><p>For example, someone with an obsessive\u00a0fear of being burgled may feel they need to check all the windows and doors are locked several times before they can leave their house.<\/p><p>Women can sometimes have OCD during pregnancy or after their baby is born. Obsessions may include worrying about harming the baby or not sterilising feeding bottles properly. Compulsions could be things such as repeatedly checking the baby is breathing, and intrusive, unwanted and unpleasant thoughts, images or urges. These can cause anxiety and lead to repetitive behaviours.<\/p><p>If you keep getting these thoughts and they have an effect on your daily life, speak to your GP or health visitor. They can support you or refer you to a specialist mental health team if you need it.<\/p>"
+                }
+            ],
+            "headline": "Symptoms\u00a0of obsessive compulsive disorder (OCD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/obsessive-compulsive-disorder-ocd\/overview\/#medical-treatments",
+            "description": "Obsessive compulsive disorder is usually treated with talking therapies. Medicines may help if your symptoms are severe.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>There are some effective treatments for OCD that can help reduce the impact it has on your life.<\/p><p>The main treatments are:<\/p><ul><li>talking therapy\u00a0\u2013 usually <a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/cognitive-behavioural-therapy-cbt\/overview\/\">cognitive behavioural therapy (CBT)<\/a>,\u00a0which\u00a0helps you face your fears and obsessive thoughts without \"putting them right\" through compulsions<\/li><li>medicine\u00a0\u2013 usually a type of antidepressant\u00a0medicine called <a href=\"\/mental-health\/talking-therapies-medicine-treatments\/medicines-and-psychiatry\/ssri-antidepressants\/overview\/\">selective serotonin reuptake inhibitors (SSRIs)<\/a>,\u00a0which can help by\u00a0altering the balance of chemicals in your brain<\/li><\/ul><p>CBT will usually have an effect quite quickly. It can take up to 12 weeks before you notice the effects of treatment with SSRIs, but most people will eventually benefit.<\/p><p>If these treatments do not help, you may be offered:<\/p><ul><li>an alternative SSRI<\/li><li>a combination of an SSRI and CBT<\/li><li>an antidepressant called clomipramine<\/li><\/ul><p>Some people may be referred to a specialist mental health service for further treatment.<\/p>"
+                }
+            ],
+            "headline": "Treatments for obsessive compulsive disorder (OCD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-traumatic-stress-disorder-ptsd\/overview\/#symptoms",
+            "description": "Symptoms of post-traumatic stress disorder include flashbacks, nightmares, feeling very anxious and difficulty sleeping.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Someone with PTSD often relives the traumatic event through nightmares and flashbacks, and may experience feelings of isolation, irritability and guilt.<\/p><p>They may also have problems sleeping, such as <a href=\"\/conditions\/insomnia\/\">insomnia<\/a>, and find concentrating difficult.<\/p><p>These symptoms are often severe and\u00a0persistent enough to have a significant impact on the person's day-to-day life.<\/p>"
+                }
+            ],
+            "headline": "Symptoms of post-traumatic stress disorder (PTSD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/CausesHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-traumatic-stress-disorder-ptsd\/overview\/#causes",
+            "description": "Any situation that a person finds traumatic can cause post-traumatic stress disorder. Examples include a road accident, an assault and childbirth.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>Any situation that a person finds traumatic can cause PTSD.<\/p><p>These can include:<\/p><ul><li>serious road accidents<\/li><li>violent personal assaults, such as sexual assault, mugging or robbery<\/li><li>serious health problems<\/li><li>childbirth experiences<\/li><\/ul><p>PTSD\u00a0can develop immediately\u00a0after someone experiences a\u00a0disturbing event, or it\u00a0can occur weeks, months or even years later.<\/p><p>PTSD is estimated to affect about 1 in every 3 people who have a traumatic experience, but it's not clear exactly why some people develop\u00a0the condition\u00a0and others do not.<\/p>"
+                }
+            ],
+            "headline": "Causes of post-traumatic stress disorder (PTSD)"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/post-traumatic-stress-disorder-ptsd\/overview\/#medical-treatments",
+            "description": "The main treatments for post-traumatic stress disorder are antidepressants and talking therapies.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>PTSD can be successfully treated, even when it\u00a0develops many years after\u00a0a traumatic event.<\/p><p>Treatment depends on the severity of\u00a0symptoms and how soon they\u00a0occur after the traumatic event.\u00a0<\/p><p>Any of the following treatment options may be recommended:<\/p><ul><li>watchful waiting \u2013 monitoring your\u00a0symptoms to see whether they improve or get worse without treatment<\/li><li><a href=\"\/mental-health\/talking-therapies-medicine-treatments\/medicines-and-psychiatry\/antidepressants\/overview\/\">antidepressants<\/a> \u2013 such as\u00a0<a href=\"\/medicines\/paroxetine\/\">paroxetine<\/a> or\u00a0<a href=\"\/medicines\/sertraline\/\">sertraline<\/a><\/li><li><a href=\"\/mental-health\/talking-therapies-medicine-treatments\/talking-therapies-and-counselling\/nhs-talking-therapies\/\">talking therapies<\/a> \u2013 such as trauma-focused\u00a0cognitive behavioural therapy (CBT)\u00a0or eye movement desensitisation and reprocessing (EMDR)<\/li><\/ul><p>You can refer yourself directly to a talking therapies service.<\/p>"
+                }
+            ],
+            "headline": "How post-traumatic stress disorder (PTSD) is treated"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/SymptomsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/feelings-symptoms-behaviours\/behaviours\/eating-disorders\/overview\/#symptoms",
+            "description": "Symptoms of an eating disorder include worrying about your weight, eating too little or making yourself sick after eating.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>If you or people around you are worried that you have an unhealthy relationship with food, you could have an eating disorder.<\/p><p>Symptoms of eating disorders include:<\/p><ul><li>spending a lot of time worrying about your weight and body shape<\/li><li>avoiding socialising when you think food will be involved<\/li><li>eating very little food<\/li><li>making yourself sick or taking laxatives after you eat<\/li><li>exercising too much<\/li><li>having very strict habits or routines around food<\/li><li>changes in your mood such as being withdrawn, anxious or depressed<\/li><\/ul><p>You may also notice physical signs, including:<\/p><ul><li>feeling cold, tired or dizzy<\/li><li>pains, tingling or numbness in your arms and legs (poor circulation)<\/li><li>feeling your heart racing, fainting or feeling faint<\/li><li>problems with your digestion, such as bloating, constipation or diarrhoea<\/li><li>your weight being very high or very low for someone of your age and height<\/li><li>not getting your period or other delayed signs of puberty<\/li><\/ul>"
+                }
+            ],
+            "headline": "Check if you have an eating disorder"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/TreatmentsHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/feelings-symptoms-behaviours\/behaviours\/eating-disorders\/overview\/#medical-treatments",
+            "description": "Treatment for an eating disorder depends on the type of condition you have. It usually involves talking therapy.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>You can recover from an eating disorder, but it may take time and recovery will be different for everyone.<\/p><p>If you're referred to an eating disorder specialist or team of specialists, they'll be responsible for your care.<\/p><p>They should talk to you about the support you might need, such as for other conditions you have, and include this in your treatment plan.<\/p><p>Your treatment will depend on the type of eating disorder you have, but usually includes a talking therapy.<\/p><p>You may also need regular health checks if your eating disorder is having an impact on your physical health.<\/p><p>Your treatment may also involve working through a guided self-help programme if you have bulimia or binge eating disorder.<\/p><p>Most people will be offered individual therapy, but those with binge eating disorder may be offered group therapy.<\/p>"
+                }
+            ],
+            "headline": "Treatment for eating disorders"
+        },
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http:\/\/schema.org\/CausesHealthAspect",
+            "url": "https:\/\/www.nhs.uk\/mental-health\/feelings-symptoms-behaviours\/behaviours\/eating-disorders\/overview\/#causes",
+            "description": "Anyone can get an eating disorder but things that make it more likely include family problems, depression or dealing with difficult things like death.",
+            "hasPart": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "",
+                    "text": "<p>We do not know exactly what causes eating disorders.<\/p><p>You may be more likely to get an eating disorder if:<\/p><ul><li>you or a member of your family has a history of eating disorders, depression, or alcohol or drug misuse<\/li><li>you've been criticised for your eating habits, body shape or weight<\/li><li>you're really worried about being slim, particularly if you also feel pressure from society or your job, for example, ballet dancers, models or athletes<\/li><li>you have anxiety, low self-esteem, an obsessive personality or are a perfectionist<\/li><li>you've been sexually abused<\/li><\/ul>"
+                }
+            ],
+            "headline": "What causes eating disorders?"
+        }
+    ],
+    "breadcrumb": {
+        "@context": "http:\/\/schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 0,
+                "item": {
+                    "@id": "https:\/\/www.nhs.uk\/mental-health\/",
+                    "name": "Mental health",
+                    "genre": []
+                }
+            }
+        ]
+    },
+    "headline": "Mental health",
+    "contentSubTypes": [],
+    "mainEntityOfPage": [
+        {
+            "identifier": "23",
+            "@type": "WebPageElement",
+            "name": "toptasks",
+            "headline": "",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Get urgent help now for mental health",
+                    "url": "https:\/\/www.nhs.uk\/nhs-services\/mental-health-services\/get-urgent-help-for-mental-health\/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Find an NHS talking therapies service",
+                    "url": "https:\/\/www.nhs.uk\/service-search\/mental-health\/find-an-nhs-talking-therapies-service",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                }
+            ]
+        },
+        {
+            "identifier": "24",
+            "@type": "WebPageElement",
+            "name": "canonicallinks",
+            "headline": "",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Feelings, symptoms and behaviours",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/feelings-symptoms-behaviours\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"5c9ze\">Read about common feelings and symptoms such as stress, anxiety or a low mood<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Mental health conditions",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/conditions\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"1h51c\">Read about specific mental health conditions, such as depression, bipolar disorder or OCD<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Advice for life situations and events",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/advice-for-life-situations-and-events\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"1ff5d\">Advice for you and people you support about mental health in life situations and events, such as pregnancy and bullying at work<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Self-help",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/self-help\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"od2ms\">Read about different types of self-help, such as 5 steps to mental wellbeing and breathing exercises<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Mental health services",
+                    "url": "https:\/\/www.nhs.uk\/nhs-services\/mental-health-services\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"3be6u\">Find out how to access NHS mental health services and where to get urgent help<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Mental health for children, teenagers and young adults",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/children-and-young-adults\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"xo0kg\">Find advice and support about mental health for children, teenagers, students and parents<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Talking therapies, medicine and psychiatry",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/talking-therapies-medicine-treatments\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"tg2ks\">Read about the different types of talking therapy and other treatments, such as medicine for mental health problems<\/p>",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Social care, mental health and your rights",
+                    "url": "https:\/\/www.nhs.uk\/mental-health\/social-care-and-your-rights\/",
+                    "identifier": "26",
+                    "text": "<p data-block-key=\"pe8sh\">Find information and support about being a carer, receiving social care, accessing mental health services and your mental health rights<\/p>",
+                    "name": "link"
+                }
+            ]
+        },
+        {
+            "identifier": "27",
+            "@type": "WebPageElement",
+            "name": "RelatedLinks",
+            "headline": "Related information",
+            "text": "",
+            "mainEntityOfPage": [
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Every Mind Matters",
+                    "url": "https:\/\/www.nhs.uk\/oneyou\/every-mind-matters\/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Autism",
+                    "url": "https:\/\/www.nhs.uk\/conditions\/autism\/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Insomnia",
+                    "url": "https:\/\/www.nhs.uk\/conditions\/insomnia\/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Dementia guide",
+                    "url": "https:\/\/www.nhs.uk\/conditions\/dementia\/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "headline": "Addiction support",
+                    "url": "https:\/\/www.nhs.uk\/live-well\/addiction-support\/",
+                    "identifier": "26",
+                    "text": "",
+                    "name": "link"
+                }
+            ]
+        }
+    ]
+}

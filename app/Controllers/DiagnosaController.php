@@ -18,10 +18,58 @@ use CodeIgniter\Controller;
 
 class DiagnosaController extends BaseController
 {
-    
+    protected $session;
+
+    public function __construct()
+    {
+        $this->session = service('session');
+
+        
+    }
+
+    public function detail($id){
+        $diagnosaModel = new DiagnosaModel();
+        $diagnosa = $diagnosaModel->find($id);
+        
+    }
+    public function diagnosis(){
+
+        $title = "diagnosis";
+        $penyakitModel = new PenyakitModel();
+        $pasienModel = new PasienModel();
+        $diagnosaModel = new DiagnosaModel();
+
+        $penyakit = $penyakitModel->findAll();
+        $pasien = $pasienModel->where('id_user',user_id())->first();
+       
+        $datadiagnosa = $diagnosaModel->where('pasien_id',$pasien['id'])->findAll();
+       
+
+        foreach ($datadiagnosa as &$data) {
+            // Fetch nama_pasien for the current row
+         
+        
+            // Fetch nama_penyakit for the current row
+            $penyakitInfo = $penyakitModel->where('kode_penyakit', $data['kode_penyakit'])->findAll();
+           
+            $data['nama_penyakit'] = $penyakitInfo ? $penyakitInfo[0]['nama_penyakit'] : null;
+        }
+
+            
+        return view('diagnosa/diagnosis',compact('title', 'datadiagnosa'));
+    }
 
     public function index()
-    {
+    {   
+        
+        if(session('nama')==null){
+           
+            $pasienModel = new PasienModel();
+            $pasien = $pasienModel->where('id_user',user_id())->first();
+           
+        $this->session->set('id', $pasien['id']);
+        $this->session->set('nama', $pasien['nama']);
+        }
         $title = "Diagnosa";
         $gejalaModel = new GejalaModel();
         $datagejala = $gejalaModel->findAll();

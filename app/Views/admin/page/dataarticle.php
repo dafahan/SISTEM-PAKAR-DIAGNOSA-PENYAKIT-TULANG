@@ -33,10 +33,10 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="d-flex align-items-center">
-                                    <h4 class="card-title"><b>Data pasien</b></h4>
+                                    <h4 class="card-title"><b>Data Article</b></h4>
                                     <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
                                         <i class="fa fa-plus"></i>
-                                        &nbsp;Tambahkan Pasien
+                                        &nbsp;Tambahkan Article
                                     </button>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                                     <span class="fw-mediumbold">
                                                     Tambahkan</span> 
                                                     <span class="fw-light">
-                                                        Pasien
+                                                        Article
                                                     </span>
                                                 </h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -61,27 +61,18 @@
                                                 <div class="row">
                                                     <div class="col-sm-12">
                                                         <div class="form-group form-group-default">
-                                                            <form action="<?= base_url('admin/datapasien/store') ?>" method="POST">
+                                                            <form action="<?= base_url('article/add') ?>" method="POST">
                                                                 <?= csrf_field() ?>
                                                                 <div>
-                                                                    <label>Nama</label>
-                                                                    <input type="text" class="form-control" name="nama" placeholder="masukan nama" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
+                                                                    <label>Headline</label>
+                                                                    <input type="text" class="form-control" name="headline" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
                                                                     <br>
-                                                                    <label>Tanggal Lahir</label>
-                                                                    <input type="date" class="form-control" name="tanggal_lahir" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
+                                                                    <label>Description</label>
+                                                                    <textarea  class="form-control" name="description" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;"></textarea>
                                                                     <br>
-                                                                    <label>Email</label>
-                                                                    <input type="text" class="form-control" name="email" placeholder="masukan email" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
-                                                                    <br>
-                                                                    <label>No Telpon</label>
-                                                                    <input type="text" class="form-control" name="no_telp" placeholder="masukan no-telpon" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
-                                                                    <br>
-                                                                    <label>Jenis Kelamin</label>
-                                                                    <select name="jenis_kelamin" id="jenis_kelamin" class="form-control" style="border: 1px solid #f1f1f1; height:40px; padding:13px 10px;">
-                                                                        <option value="">Pilih jenis kelamin</option>
-                                                                        <option value="L">L</option>
-                                                                        <option value="P">P</option>
-                                                                    </select> 
+                                                                    <label>Text</label>
+                                                                    <textarea type="text" class="form-control" name="text"  style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;"></textarea>
+                                                                    
                                                                 </div>
 
                                                                 <div class="modal-footer no-bd">
@@ -102,29 +93,27 @@
                                 <div class="table-responsive">
                                     <table id="add-row" class="display table table-striped table-hover" >
                                         <thead>
-                                            <tr>
-                                                <th>No</th>
-                                                <th>Nama</th>
-                                                <th>Tanggal Lahir</th>
-                                                <th>Jenis Kelamin</th>
-                                                <th style="width: 10%">Action</th>
-                                            </tr>
+                                        <tr>
+                                            <th></th>
+                                            <th>Headline</th>
+                                            <th>Deskripsi</th>
+                                            <th>Aksi</th>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                            <?php $row=1; foreach ($datapasien as $data): ?>
-                                                <tr>
-                                                    <td><?= $row++; ?></td>
-                                                    <td><?= $data['nama'] ?></td>
-                                                    <td><?= $data['tanggal_lahir'] ?></td>
-                                                    <td><?= $data['jenis_kelamin'] ?></td>
+                                                <?php $no=1; foreach ($article as $dt) : ?>
+                                                    <tr>
+                                                    <td><?= $no ?></td>
+                                                    <td><?= $dt['headline']; ?></td>
+                                                    <td><?= $dt['description']; ?></td>
                                                     <td>
                                                         <div class="form-button-action">
-                                                            <button type="button" data-toggle="modal" title="" data-target="#updateRowModal<?= $data['id'] ?>" class="btn btn-link btn-warning btn-lg" data-original-title="Edit Task">
+                                                            <button type="button" data-toggle="modal" title="" data-target="#updateRowModal<?=$no?>" class="btn btn-link btn-warning btn-lg" data-original-title="Edit Task">
                                                                 <i class="fa fa-edit">&nbsp; Edit</i>
                                                             </button>
 
                                                             <!-- modal update -->
-                                                            <div class="modal fade" id="updateRowModal<?= $data['id'] ?>" tabindex="-1" role="dialog" aria-hidden="true">
+                                                            <div class="modal fade" id="updateRowModal<?= $no?>" tabindex="-1" role="dialog" aria-hidden="true">
                                                                 <div class="modal-dialog" role="document">
                                                                     <div class="modal-content">
                                                                         <div class="modal-header no-bd">
@@ -143,31 +132,20 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="form-group form-group-default">
-                                                                                        <form action="<?= base_url('admin/datapasien/update/' . $data['id']) ?>" method="POST">
+                                                                                        <form action="<?= base_url('article/edit/'.$no ) ?>" method="POST">
                                                                                             
-                                                                                            <?= csrf_field() ?>
-                                                                                            <input type="hidden" name="_method" value="put"/>
-                                                                                            <div>
-                                                                                                <label>Nama</label>
-                                                                                                <input type="text" class="form-control" value="<?= $data['nama'] ?>" name="nama" placeholder="masukan nama" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
-                                                                                                <br>
-                                                                                                <label>Tanggal Lahir</label>
-                                                                                                <input type="date" class="form-control" value="<?= $data['tanggal_lahir'] ?>" name="tanggal_lahir" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
-                                                                                                <br>
-                                                                                                <label>Email</label>
-                                                                                                <input type="text" class="form-control" value="<?= $data['email'] ?>" name="email" placeholder="masukan email" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
-                                                                                                <br>
-                                                                                                <label>No Telpon</label>
-                                                                                                <input type="text" class="form-control" value="<?= $data['no_telp'] ?>" name="no_telp" placeholder="masukan no-telpon" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
-                                                                                                <br>
-                                                                                                <label>Jenis Kelamin</label>
-                                                                                                <select name="jenis_kelamin" id="jenis_kelamin" class="form-control" style="border: 1px solid #f1f1f1; height:40px; padding:13px 10px;">
-                                                                                                    <option value="<?= $data['jenis_kelamin'] ?>"><?= $data['jenis_kelamin'] ?></option>
-                                                                                                    <option value="L">L</option>
-                                                                                                    <option value="P">P</option>
-                                                                                                </select> 
-                                                                                            </div>
-
+                                                                                        <?= csrf_field() ?>
+                                                                                                <div>
+                                                                                                    <label>Headline<?= $no?></label>
+                                                                                                    <input type="text" class="form-control" value="<?= $dt['headline']; ?>" name="headline" style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;">
+                                                                                                    <br>
+                                                                                                    <label>Description</label>
+                                                                                                    <textarea  class="form-control" name="description"  style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;"><?= $dt['description']; ?></textarea>
+                                                                                                    <br>
+                                                                                                    <label>Text</label>
+                                                                                                    <textarea type="text" class="form-control" name="text"   style="border: 1px solid #f1f1f1; line-height:40px; padding-left:10px;"><?= $dt['hasPart'][0]['text']; ?></textarea>
+                                                                                                    
+                                                                                                </div>
                                                                                             <div class="modal-footer no-bd">
                                                                                                 <input type="submit" class="btn btn-warning" name="submit" value="Update">
                                                                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -180,8 +158,10 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-
-                                                            <form action="<?= base_url('admin/datapasien/delete/' . $data['id']) ?>" method="POST">
+                                                            <a href="<?=base_url('article/detail/'.$no)?>" data-toggle="tooltip" class="btn btn-link btn-info" >
+                                                                    <i class="fa fa-info">&nbsp; Detail</i>
+                                                            </a>
+                                                            <form action="<?= base_url('article/delete/'.$no) ?>" method="GET">
                                                                 <?= csrf_field() ?>
                                                                 <input type="hidden" name="_method" value="DELETE">
                                                                 <button type="submit" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
@@ -191,7 +171,7 @@
                                                         </div>
                                                     </td>
                                                 </tr>
-                                            <?php endforeach; ?>
+                                            <?php $no++; endforeach;  ?>
                                         </tbody>
                                     </table>
                                 </div>

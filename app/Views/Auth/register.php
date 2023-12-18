@@ -1,7 +1,7 @@
-<?= $this->extend($config->viewLayout) ?>
-<?= $this->section('main') ?>
 
-<div class="container">
+<?= $this->extend('layouts/mainlogin') ?>
+<?= $this->section('content') ?>
+<div class="container" style="margin-top:20vh;">
     <div class="row">
         <div class="col-sm-6 offset-sm-3">
 

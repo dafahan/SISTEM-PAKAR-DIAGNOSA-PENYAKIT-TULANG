@@ -13,6 +13,7 @@ class PasienModel extends Model
     protected $primaryKey = 'id'; 
 
     protected $allowedFields = [
+        'id_user',
         'id',
         'nama',
         'tanggal_lahir',

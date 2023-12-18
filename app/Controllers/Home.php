@@ -4,8 +4,10 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index()
     {   
+        
+        if(in_groups('admin'))return redirect()->to(base_url('admin/home'));
         $db = \Config\Database::connect();
         $statPasien = $db->table('t_datapasien')->countAll();
         $statDiagnosa = $db->table('t_diagnosa')->countAll();
@@ -16,7 +18,7 @@ class Home extends BaseController
             'statPasien' => $statPasien,
             'statDiagnosa' => $statDiagnosa,
             'statPenyakit' => $statPenyakit,
-            "title" => "Home" ,
+            "title" => "home" ,
             "judul" => "System Pakar Diagnosa" ,
             "judul1" => "Penyakit Tulang" ,
             "tagline" => "Solusi Konsultasi Cepat" ,

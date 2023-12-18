@@ -43,6 +43,7 @@ class AuthController extends Controller
      */
     public function login()
     {
+        
         // No need to show a login form if the user
         // is already logged in.
         if ($this->auth->check()) {
@@ -55,7 +56,7 @@ class AuthController extends Controller
         // Set a return URL if none is specified
         $_SESSION['redirect_url'] = session('redirect_url') ?? previous_url() ?? site_url('/');
 
-        return $this->_render($this->config->views['login'], ['config' => $this->config]);
+        return $this->_render($this->config->views['login'], ['config' => $this->config,'title'=>'login']);
     }
 
     /**
@@ -120,6 +121,7 @@ class AuthController extends Controller
      */
     public function register()
     {
+
         // check if already logged in.
         if ($this->auth->check()) {
             return redirect()->back();
@@ -130,7 +132,7 @@ class AuthController extends Controller
             return redirect()->back()->withInput()->with('error', lang('Auth.registerDisabled'));
         }
 
-        return $this->_render($this->config->views['register'], ['config' => $this->config]);
+        return $this->_render($this->config->views['register'], ['config' => $this->config,'title'=>'register']);
     }
 
     /**
@@ -157,7 +159,7 @@ class AuthController extends Controller
 
         // Validate passwords since they can only be validated properly here
         $rules = [
-            'password'     => 'required|strong_password',
+            'password'     => 'required',
             'pass_confirm' => 'required|matches[password]',
         ];
 
@@ -169,8 +171,8 @@ class AuthController extends Controller
         $allowedPostFields = array_merge(['password'], $this->config->validFields, $this->config->personalFields);
         $user              = new User($this->request->getPost($allowedPostFields));
 
-        $this->config->requireActivation === null ? $user->activate() : $user->generateActivateHash();
-
+         $user->activate() ;
+         $users = $users->withGroup('user');
         // Ensure default group gets assigned if set
         if (! empty($this->config->defaultUserGroup)) {
             $users = $users->withGroup($this->config->defaultUserGroup);
@@ -180,7 +182,7 @@ class AuthController extends Controller
             return redirect()->back()->withInput()->with('errors', $users->errors());
         }
 
-        if ($this->config->requireActivation !== null) {
+        if ($this->config->requireActivation === null) {
             $activator = service('activator');
             $sent      = $activator->send($user);
 

@@ -103,7 +103,7 @@
                 </div>
                 <div class="kolom3" style="">
                     <div style="height: 100px;">
-                        <a href="/login" class="btn btn-primary" style="background: none; color: #18A0FB; border:1px solid #18A0FB;">Sign-in</a>
+                        <a href="<?= base_url(logged_in()?'logout':'login')?>" class="btn btn-primary" style="background: none; color: #18A0FB; border:1px solid #18A0FB;"><?= (logged_in()?'SIGN OUT':'SIGN IN')?></a>
                     </div>
                 </div>
             </div>

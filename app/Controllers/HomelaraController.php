@@ -16,7 +16,7 @@ class HomelaraController extends Controller
      *
      * @return string
      */
-    public function index(): string
+    public function index()
     {
         $title = "Home | Admin";
 
@@ -37,5 +37,8 @@ class HomelaraController extends Controller
         ];
         
         return view('admin/index', $data);
+    }
+    public function dashboard(){
+
     }
 }

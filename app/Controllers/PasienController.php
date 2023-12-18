@@ -25,6 +25,10 @@ class PasienController extends BaseController
 
     public function index()
     {
+        if(!logged_in())return redirect()->to(base_url('login'));
+        $pasienModel = new PasienModel();
+        $registered = $pasienModel->where('id_user',user_id())->first();
+        if($registered!=null)return redirect()->to(base_url('diagnosa'));
         $title = "Diagnosa";
         return view('diagnosa/datadiri', compact('title'));
     }
@@ -36,6 +40,7 @@ class PasienController extends BaseController
 
         $validation = \Config\Services::validation();
         $validation->setRules([
+           
             'nama'            => 'required',
             'tanggal_lahir'   => 'required',
             'email'           => 'required',
@@ -48,9 +53,10 @@ class PasienController extends BaseController
         }
 
         $pasienModel = new PasienModel();
-
+        
         $data = [
             'id'             => Uuid::uuid4()->getHex(),
+            'id_user'        => user_id(),
             'nama'           => $input['nama'],
             'tanggal_lahir'  => $input['tanggal_lahir'],
             'email'          => $input['email'],
@@ -61,11 +67,8 @@ class PasienController extends BaseController
         ];
         
         $pasienModel->insert($data);
-
         $this->session->set('id', $data['id']);
-        
         $this->session->set('nama', $data['nama']);
-
         return redirect()->to(base_url('diagnosa'))->with('success', 'Berhasil Registrasi');
     }
 }

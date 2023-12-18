@@ -5,26 +5,30 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title><?=$title ?></title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-	<link rel="icon" href="../img/logo.png" type="image/x-icon"/>
+	<link rel="icon" href="<?=base_url('img/logo.png')?>" type="image/x-icon"/>
 
 	<!-- Fonts and icons -->
-	<script src="../assets/js/plugin/webfont/webfont.min.js"></script>
+	<script src="<?=base_url('assets/js/plugin/webfont/webfont.min.js')?>"></script>
 	<script>
 		WebFont.load({
-			google: {"families":["Lato:300,400,700,900"]},
-			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['../assets/css/fonts.min.css']},
-			active: function() {
-				sessionStorage.fonts = true;
-			}
-		});
+    google: {"families":["Lato:300,400,700,900"]},
+    custom: {
+        "families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"],
+        urls: ["<?= base_url('assets/css/fonts.min.css') ?>"]
+    },
+    active: function() {
+        sessionStorage.fonts = true;
+    }
+});
+
 	</script>
 	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 	<!-- CSS Files -->
-	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css')?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/atlantis.min.css');?>">
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link rel="stylesheet" href="../assets/css/demo.css">
+	<link rel="stylesheet" href="<?=base_url('assets/css/demo.css');?>">
 
 	<style>
 		input[type='submit']{
@@ -48,7 +52,7 @@
 			<div class="logo-header" data-background-color="orange">
 				
 				<a href="index.html" class="logo">
-					<img src="../img/logo.png" width="24px" alt="navbar brand" class="navbar-brand"><b style="color: aliceblue;">ilang</b>
+					<img src="<?=base_url('img/logo.png');?>" width="24px" alt="navbar brand" class="navbar-brand"><b style="color: aliceblue;">ilang</b>
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
@@ -98,7 +102,7 @@
 									</li>
 									<li>
 										<div class="dropdown-divider"></div>
-											<form id="logout-form" action="<?=base_url('logout')?>" method="POST" class="dropdown-item">
+											<form id="logout-form" action="<?=base_url('logout')?>" method="GET" class="dropdown-item">
 												<?csrf()?>
 												<input type="submit" value="logout" >
 											</form>
@@ -154,58 +158,60 @@
 							</div>
 						</div>
 					</div>
+					
 					<ul class="nav nav-primary">
-						<li class="nav-item  <?php echo ($title === "Home | admin" ? 'active' : '') ?>">
+					
+						<li class="nav-item  <?php echo ($title === "admin" ? 'active' : '') ?>">
 							<a href="<?=base_url('admin/home')?>">
 								<i class="fas fa-home"></i>
 								<p>Dashboard</p>
 							</a>
 						</li>
-						
+
 						<li class="nav-section">
 							<span class="sidebar-mini-icon">
 								<i class="fa fa-ellipsis-h"></i>
 							</span>
 							<h4 class="text-section">Manage data</h4>
 						</li>
-						<li class="nav-item {{ $title === "Data Penyakit" ? 'active' : '' }}">
+						<li class="nav-item <?php echo ($title === "Data Penyakit" ? 'active' : '') ?>">
 							<a href="/admin/datapenyakit">
 								<i class="fas fa-layer-group"></i>
 								<p>Data Penyakit</p>
 							</a>
 						</li>
-						<li class="nav-item {{ $title === "Data Gejala" ? 'active' : '' }}">
+						<li class="nav-item <?php echo ($title === "Data Gejala" ? 'active' : '') ?>">
 							<a href="/admin/datagejala">
 								<i class="fas fa-th-list"></i>
 								<p>Data Gejala</p>
 							</a>
 						</li>
-						<li class="nav-item {{ $title === "Data Solusi" ? 'active' : '' }}">
+						<li class="nav-item <?php echo ($title === "Data Solusi" ? 'active' : '') ?>">
 							<a href="/admin/datasolusi">
 								<i class="fas fa-th-list"></i>
 								<p>Data Solusi</p>
 							</a>
 						</li>
-						<li class="nav-item {{ $title === "Data Penyebab" ? 'active' : '' }}">
+						<li class="nav-item <?php echo ($title === "Data Penyebab" ? 'active' : '') ?>">
 							<a href="/admin/datapenyebab">
 								<i class="fas fa-th-list"></i>
 								<p>Data Penyebab</p>
 							</a>
 						</li>
-						<li class="nav-item {{ $title === "Data Pasien" ? 'active' : '' }}">
+						<li class="nav-item <?php echo ($title === "Data Pasien" ? 'active' : '') ?>">
 							<a href="/admin/datapasien">
 								<i class="fas fa-users"></i>
 								<p>Data Pasien</p>
 							</a>
 						</li>
-						<li class="nav-item {{ $title === "Data Pasien" ? 'active' : '' }}">
+						<li class="nav-item <?php echo ($title === "Data Diagnosa" ? 'active' : '') ?>">
 							<a href="/admin/datadiagnosa">
 								<i class="fas fa-pen-square"></i>
 								<p>Data Diagnosa</p>
 							</a>
 						</li>
-						<li class="nav-item {{ $title === "Detail Penyakit" ? 'active' : '' }}">
-							<a href="/admin/detailpenyakit">
+						<li class="nav-item <?php echo ($title === "Article" ? 'active' : '') ?>">
+							<a href="/article/manage">
 								<i class="fas fa-table"></i>
 								<p>Manage Article</p>
 							</a>
@@ -328,47 +334,45 @@
 	</div>
 </div>
 	<!--   Core JS Files   -->
-	<script src="../assets/js/core/jquery.3.2.1.min.js"></script>
-	<script src="../assets/js/core/popper.min.js"></script>
-	<script src="../assets/js/core/bootstrap.min.js"></script>
+	<script src="<?= base_url('assets/js/core/jquery.3.2.1.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/core/popper.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/core/bootstrap.min.js') ?>"></script>
 
-	<!-- jQuery UI -->
-	<script src="../assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-	<script src="../assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+<!-- jQuery UI -->
+<script src="<?= base_url('assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js') ?>"></script>
 
-	<!-- jQuery Scrollbar -->
-	<script src="../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<!-- jQuery Scrollbar -->
+<script src="<?= base_url('assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js') ?>"></script>
 
+<!-- Chart JS -->
+<script src="<?= base_url('assets/js/plugin/chart.js/chart.min.js') ?>"></script>
 
-	<!-- Chart JS -->
-	<script src="../assets/js/plugin/chart.js/chart.min.js"></script>
+<!-- jQuery Sparkline -->
+<script src="<?= base_url('assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js') ?>"></script>
 
-	<!-- jQuery Sparkline -->
-	<script src="../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
-
-	<!-- Chart Circle -->
-	{{-- <script src="../assets/js/plugin/chart-circle/circles.min.js"></script> --}}
+<!-- Chart Circle -->
+<script src="<?= base_url('assets/js/plugin/chart-circle/circles.min.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
+<!-- Datatables -->
+<script src="<?= base_url('assets/js/plugin/datatables/datatables.min.js') ?>"></script>
 
-	<!-- Datatables -->
-	<script src="../assets/js/plugin/datatables/datatables.min.js"></script>
+<!-- Bootstrap Notify -->
+<script src="<?= base_url('assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js') ?>"></script>
 
-	<!-- Bootstrap Notify -->
-	<script src="../assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+<!-- jQuery Vector Maps -->
+<script src="<?= base_url('assets/js/plugin/jqvmap/jquery.vmap.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/plugin/jqvmap/maps/jquery.vmap.world.js') ?>"></script>
 
-	<!-- jQuery Vector Maps -->
-	<script src="../assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
-	<script src="../assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+<!-- Sweet Alert -->
+<script src="<?= base_url('assets/js/plugin/sweetalert/sweetalert.min.js') ?>"></script>
 
-	<!-- Sweet Alert -->
-	<script src="../assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+<!-- Atlantis JS -->
+<script src="<?= base_url('assets/js/atlantis.min.js') ?>"></script>
 
-	<!-- Atlantis JS -->
-	<script src="../assets/js/atlantis.min.js"></script>
-
-	<!-- Atlantis DEMO methods, don't include it in your project! -->
-	<script src="../assets/js/setting-demo.js"></script>
+<!-- Atlantis DEMO methods, don't include it in your project! -->
+<script src="<?= base_url('assets/js/setting-demo.js') ?>"></script>
 
 	<script>
 		// Circles.create({
