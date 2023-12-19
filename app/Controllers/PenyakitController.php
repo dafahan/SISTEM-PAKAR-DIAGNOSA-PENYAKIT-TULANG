@@ -86,15 +86,14 @@ class PenyakitController extends Controller
 
     $validation = \Config\Services::validation();
     $validation->setRules([
-        'kode_penyakit' => 'required|is_unique[t_penyakit.kode_penyakit,id_penyakit,{id}]',
         'nama_penyakit' => 'required',
         'deskripsi' => 'required',
     ]);
-
+   
     if ($validation->withRequest($this->request)->run()) {
         $penyakitModel = new PenyakitModel();
         $data = [
-            'kode_penyakit' => $request->getPost('kode_penyakit'),
+            
             'nama_penyakit' => $request->getPost('nama_penyakit'),
             'deskripsi' => $request->getPost('deskripsi'),
         ];
@@ -102,8 +101,7 @@ class PenyakitController extends Controller
         $updated = $penyakitModel->update($id, $data);
 
         if ($updated) {
-            $penyakitModel = new PenyakitModel();
-            $penyakitModel->find($id)->gejala()->sync($gejalaIds);
+          
             return redirect()->to(base_url('admin/datapenyakit'));
         }
     }

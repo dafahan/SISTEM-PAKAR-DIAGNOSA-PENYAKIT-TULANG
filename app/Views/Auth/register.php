@@ -7,7 +7,7 @@
 
             <div class="card">
                 <h2 class="card-header"><?=lang('Auth.register')?></h2>
-                <div class="card-body">
+                <divzzzzv class="card-body">
 
                     <?= view('App\Views\Auth\_message_block') ?>
 
@@ -17,7 +17,7 @@
                         <div class="form-group">
                             <label for="email"><?=lang('Auth.email')?></label>
                             <input type="email" class="form-control <?php if (session('errors.email')) : ?>is-invalid<?php endif ?>"
-                                   name="email" aria-describedby="emailHelp" placeholder="<?=lang('Auth.email')?>" value="<?= old('email') ?>">
+                                   name="email" aria-describedby=   "emailHelp" placeholder="<?=lang('Auth.email')?>" value="<?= old('email') ?>">
                             <small id="emailHelp" class="form-text text-muted"><?=lang('Auth.weNeverShare')?></small>
                         </div>
 
@@ -45,7 +45,7 @@
                     <hr>
 
                     <p><?=lang('Auth.alreadyRegistered')?> <a href="<?= url_to('login') ?>"><?=lang('Auth.signIn')?></a></p>
-                </div>
+                </divzzzzv>
             </div>
 
         </div>
